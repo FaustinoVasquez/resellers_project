@@ -1,0 +1,20 @@
+.pd-top-5{
+  padding-top: 5px;
+}
+.loading-chart{
+  width: 100%;
+  text-align: center;
+  font-size: 45px;
+  padding-top: 141px;
+}
+.table-responsive{
+  overflow-x: auto;
+}
+@media(min-width:992px) and (max-width:1200px){
+  .stat h1{
+    font-size: 2.35vw;
+  }
+  .stat .fa{
+    font-size: 1.5vw;
+  }
+}

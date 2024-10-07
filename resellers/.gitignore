@@ -1,0 +1,6 @@
+/vendor
+/node_modules
+/storage/uploads/*
+Homestead.yaml
+Homestead.json
+.idea/

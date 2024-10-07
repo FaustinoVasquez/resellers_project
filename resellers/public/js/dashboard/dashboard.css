@@ -1,0 +1,33 @@
+#formLabel{
+  min-height:150px;
+  text-align: center;
+  border-style: dashed;
+  padding:10px;
+  transition:padding-top 0.25s ease;
+}
+
+.dz-message{
+  margin-bottom: 10px;
+}
+
+.padded{
+  padding-top:55px!important;
+}
+
+.padded:hover{
+  padding-top:10px!important;
+}
+
+.dz-preview{
+  width:50%;
+  display: inline-table;
+  position: relative;
+}
+
+.dz-success-mark{
+  display:none;
+}
+
+.dz-error-mark{
+  display:none;
+}

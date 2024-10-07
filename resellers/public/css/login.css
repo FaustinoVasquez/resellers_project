@@ -1,0 +1,20 @@
+html{
+  height:100vh;
+  background-color: #2A6FA8;
+}
+
+body{
+  background-color: #2A6FA8!important;
+}
+
+.signup-footer{
+  color:#fff;
+}
+
+section{
+  background-color: #2A6FA8;
+}
+
+form{
+  background-color: #E4E7EA!important;
+}

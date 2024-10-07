@@ -1,0 +1,34 @@
+<?php
+
+namespace App\Http\Controllers\Invoice;
+
+use Illuminate\Http\Request;
+
+use App\Http\Requests;
+use App\Http\Controllers\Controller;
+use App\Models\Invoice;
+use Illuminate\Http\Response;
+use DB;
+use GuzzleHttp\Client;
+
+use Auth;
+
+class InvoiceController extends Controller
+{
+    /**
+     * Display a listing of the resource.
+     *
+     * @return \Illuminate\Http\Response
+     */
+    public function generateInvoice(Request $req)
+    {   
+
+        $invoices = [];
+        foreach($req->get("orders") as $order){
+            $invoices[] = ["CustomerId" => Auth::user()->customerid,"OrderId" => $order,"CartId" => Auth::user()->CartId];
+        }
+        
+        DB::table("InvoiceRequest")->insert($invoices);
+        return 'http://apps3.mitechnologiesinc.com/modules/other/STM08.aspx?sCustomerID=' . Auth::user()->customerid;
+    }
+}

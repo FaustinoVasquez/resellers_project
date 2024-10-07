@@ -1,0 +1,96 @@
+
+#cart-table td{
+  padding:15px 10px;
+  vertical-align: middle;
+}
+
+#cart-table td:nth-child(2){
+  min-width: 250px;
+}
+
+.row-close td{
+  border-top-width: 0!important;
+  padding: 0!important;
+}
+
+.btn-link-danger{
+  color:#d9534f;
+  padding-top: 0px!important;
+  padding-left: 10px!important;
+}
+
+.btn-link-danger:hover{
+  color:#c9302c;
+}
+
+.panel-primary .panel-body,
+.panel-success .panel-body,
+.panel-warning .panel-body,
+.panel-info .panel-body,
+.panel-danger .panel-body,
+.panel-dark .panel-body {
+    border: 1px solid #d7d7d7;
+    border-top: 0;
+    -moz-border-radius: 0 0 3px 3px;
+    -webkit-border-radius: 0 0 3px 3px;
+    border-radius: 0 0 3px 3px;
+}
+
+.inside-panel{
+  height:650px;
+  overflow-y: auto;
+}
+
+.flux-button{
+  margin-top: -6px;
+  margin-left:10px;
+}
+
+@media(min-width:992px){
+  .flux-button{
+    margin-top: -11px;
+    margin-left:10px;
+  }
+}
+
+.progress{
+  display:none;
+}
+
+.progress-bar{
+  min-width: 2em;
+}
+
+#formLabel{
+  min-height:150px;
+  text-align: center;
+  border-style: dashed;
+  padding:10px;
+  transition:padding-top 0.25s ease;
+}
+
+.dz-message{
+  margin-bottom: 10px;
+}
+
+.padded{
+  padding-top:55px!important;
+}
+
+.padded:hover{
+  padding-top:10px!important;
+}
+
+.dz-preview{
+  width:50%;
+  display: inline-table;
+  position: relative;
+}
+
+.dz-success-mark{
+  display:none;
+}
+
+.dz-error-mark{
+  display:none;
+}

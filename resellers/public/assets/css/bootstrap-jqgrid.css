@@ -1,0 +1,18 @@
+.ui-jqgrid .ui-jqgrid-toppager .ui-pager-control, .ui-jqgrid .ui-jqgrid-pager .ui-pager-control {
+    height: auto;
+}
+
+.ui-jqgrid .ui-jqgrid-bdiv, .ui-jqgrid .ui-jqgrid-view.table-responsive, .ui-jqgrid, .ui-jqgrid-pager,
+.ui-jqgrid-toppager, .ui-jqgrid-hdiv {
+    width: auto !important;
+}
+
+.ui-jqgrid .ui-pager-control td[id$="grid_toppager_right"],
+.ui-jqgrid .ui-pager-control td[id$="grid_toppager_center"],
+.ui-jqgrid .ui-pager-control td[id$="pager_center"]
+{
+    display: none;
+}
+.ui-jqgrid .ui-pager-control td[id$="pager_right"], .ui-jqgrid .ui-pager-control td[id$="grid_toppager_left"]{
+    font-size: 11px;
+}

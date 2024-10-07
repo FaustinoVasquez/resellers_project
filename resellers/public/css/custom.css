@@ -1,0 +1,87 @@
+html{
+  overflow-y: hidden;
+  overflow-x: hidden;
+}
+
+.logopanel{
+  height:111px;
+  padding-top: 18px;
+}
+
+.contentpanel{
+  height: 91vh;
+  overflow-y: auto;
+}
+
+.ui-pg-table.navtable.ui-common-table{
+  font-size: 15px;
+}
+
+.ui-pg-button{
+  border-radius: 2px;
+  padding:5px!important;
+}
+
+.headermenu .tp-icon-colorless {
+    padding: 12px 15px;
+    height: 50px;
+    font-size: 16px;
+    -moz-transition: all 0.2s ease-out 0s;
+    -webkit-transition: all 0.2s ease-out 0s;
+    transition: all 0.2s ease-out 0s;
+    border-radius: 0;
+    width:auto;
+    transition:width 0.25s ease;
+}
+
+.tp-icon-hidden{
+  width:0!important;
+  padding:0!important;
+  border:none!important;
+}
+
+.bg-warning-checkout{
+  font-size: 15px!important;
+  background-color: #F0AD4E!important;
+  margin-left: -10px!important;
+  margin-right:-10px!important;
+  transition:background-color 0.25s ease;
+}
+
+.bg-warning-checkout:hover{
+  background-color: #ec971f!important;
+}
+
+.bg-warning-checkout hr{
+  font-weight: 500;
+}
+
+.gritter-close{
+  color:#fff;
+}
+
+#cart-loading{
+  text-align: center;
+  font-size: 15px;
+  padding:15px;
+}
+
+#grid tbody tr{
+  cursor: pointer;
+}
+
+.btn-bottom-margin-10{
+  margin-bottom: 15px;
+}
+
+.panel-primary .panel-body, .panel-success .panel-body, .panel-warning .panel-body, .panel-info .panel-body, .panel-danger .panel-body, .panel-dark .panel-body {
+    border: 1px solid #d7d7d7;
+    border-top: 0;
+    -moz-border-radius: 0 0 3px 3px;
+    -webkit-border-radius: 0 0 3px 3px;
+    border-radius: 0 0 3px 3px;
+}
+
+.panel-default {
+    border: 1px solid #d7d7d7;
+}

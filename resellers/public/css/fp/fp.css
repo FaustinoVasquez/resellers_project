@@ -1,0 +1,8 @@
+#table-requested thead th{
+  text-align: center;
+}
+
+#table-requested tbody td{
+  text-align: center;
+  vertical-align: middle!important;
+}
