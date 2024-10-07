@@ -48,5 +48,16 @@ COPY ./resellers /var/www/html
 # Establecer el directorio de trabajo
 WORKDIR /var/www/html
 
+# Install Composer
+RUN curl -sS https://getcomposer.org/installer -o composer-setup.php && \
+    php composer-setup.php --install-dir=/usr/local/bin --filename=composer && \
+    rm composer-setup.php
+
+# Adjust permissions for storage and bootstrap/cache directories
+RUN chown -R www-data:www-data /var/www/html/storage && chmod -R 775 /var/www/html/storage
+RUN chown -R www-data:www-data /var/www/html/bootstrap/cache && chmod -R 775 /var/www/html/bootstrap/cache
+
+# RUN composer install
+
 # Comando para iniciar Apache en primer plano
 CMD ["apache2-foreground"]
